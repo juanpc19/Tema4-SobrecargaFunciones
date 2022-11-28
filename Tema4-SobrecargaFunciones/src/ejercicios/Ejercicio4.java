@@ -12,9 +12,9 @@ public class Ejercicio4 {
 		return (respuesta);
 	}
 		
-	static String parseToBoolean (String palabra) {
+	static boolean parseToBoolean (String palabra) {
 		boolean respuesta=false;
-		if palabra.equalstrue {
+		if (palabra.equals("true")) {
 			respuesta=true;
 		}
 		return (respuesta);
@@ -24,7 +24,7 @@ public class Ejercicio4 {
 
 		int numeroIntroducido;
 		
-		String palabra = "";
+		String cadena = "";
 		
 		Scanner dogma= new Scanner(System.in);
 		
@@ -36,9 +36,9 @@ public class Ejercicio4 {
 
 		System.out.println("Introduzca una palabra: ");
 
-		palabra = dogma.nextLine();
+		cadena = dogma.next();
 		
-		System.out.println(parseToBoolean(numeroIntroducido)? "El numero introducido es: 1. " : "El numero introducido es: 0.");
+		System.out.println(parseToBoolean(cadena));
 
 		dogma.close();
 		
