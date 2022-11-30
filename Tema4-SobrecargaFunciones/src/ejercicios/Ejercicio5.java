@@ -16,7 +16,7 @@ public class Ejercicio5 {
 		
 		for (int i=1; i<=iteraciones; i++) {
 			
-			numero = (int) (Math.random()*100);
+			numero = (int) (Math.random()*maximo);
 			
 			if (numero>maximo) {
 				System.out.println(maximo);
@@ -33,7 +33,7 @@ public class Ejercicio5 {
 		
 		for (int i=1; i<=iteraciones; i++) {
 				
-			numero = (int) (Math.random()*100);
+			numero = (int) (Math.random()*maximo);
 				
 			if (numero>maximo) {
 				System.out.println(maximo);
